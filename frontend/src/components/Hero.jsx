@@ -10,7 +10,7 @@ function Hero() {
         </h1>
         <Typed
           className="text-left font-bold mt-3 ml-5 md:text-7xl text-3xl pt-6 text-[#9eac9f]"
-          strings={['EL-HKEIR . . .', 'EL-HKEIR . ..', 'EL-HKEIR .. .']}
+          strings={['EL-KHEIR ...', 'EL-KHEIR . ..', 'EL-KHEIR . . .']}
           typeSpeed={40}
           backSpeed={50}
           loop

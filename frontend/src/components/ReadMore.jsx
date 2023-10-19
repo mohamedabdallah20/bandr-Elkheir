@@ -3,17 +3,19 @@ import ReadMoreImg from '../assets/bandr2.avif'
 
 function ReadMore() {
   return (
-    <div className="w-full py-8 px-4 grid md:grid-cols-2 ">
-      <div className="mx-auto ">
+    <div className="card grid md:grid-cols-2 mt-16 ">
+      <figure>
         <img src={ReadMoreImg} alt="ReadMoreImg" />
-      </div>
-      <div className="font-bold py-8 mx-4 md:text-xl  ">
-        <p>
+      </figure>
+      <div className="card-body">
+        <p className="md:p-52 md:text-4xl  text-xl p-8 ">
           Communicate your brand’s values and missions on this page. You can get
           personal with the reader, too, by explaining the motivation behind
           your brand.
         </p>
-        <div className="btn btn-primary my-8"> Read More</div>
+        <div className="card-actions justify-end md:items-center">
+          <button className="btn btn-primary w-52 ">Read More</button>
+        </div>
       </div>
     </div>
   )

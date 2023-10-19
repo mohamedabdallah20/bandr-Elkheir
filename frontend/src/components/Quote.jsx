@@ -3,16 +3,19 @@ import QuoteImg from '../assets/bandr5.avif'
 
 function Quote() {
   return (
-    <div className="w-full py-8 px-4 grid md:grid-cols-2 ">
-      <div className=" py-8 mx-4   ">
-        <p className="font-bold md:text-xl">
+    <div className="card grid md:grid-cols-2 mt-16 ">
+      <div className="card-body">
+        <p className="md:p-52 md:text-4xl  text-xl p-8">
           “This space is perfect for your favorite quote that inspires you.”
         </p>
-        <p className="py-8"> -Name Surname</p>
+        <p className="md:p-52 md:pt-0 md:text-xl  text-sm p-8">
+          {' '}
+          -Name Surname
+        </p>
       </div>
-      <div className="mx-auto ">
+      <figure>
         <img src={QuoteImg} alt="QuoteImg" />
-      </div>
+      </figure>
     </div>
   )
 }

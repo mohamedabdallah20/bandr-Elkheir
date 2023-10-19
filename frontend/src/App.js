@@ -11,7 +11,7 @@ function App() {
 
   return (
     <Router>
-      <div className="h-screen justify-between">
+      <div className="h-screen justify-between mx-auto">
         <NavBar />
         <main className="flex flex-col bg-slate-50 ">
           <Routes>
