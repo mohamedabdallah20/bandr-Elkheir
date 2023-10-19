@@ -2,6 +2,10 @@ import React from 'react'
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom'
 import Footer from './components/Footer'
 import NavBar from './components/NavBar'
+import Home from './pages/Home'
+import Blogs from './pages/Blogs'
+import About from './pages/About'
+import Contact from './pages/Contact'
 function App() {
   ;<main className="container mx-auto px-3 py-4 pb-12"></main>
 
@@ -11,7 +15,12 @@ function App() {
         <NavBar />
 
         <main className="container mx-auto px-3 py-4 pb-12">
-          <Routes></Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="blogs" element={<Blogs />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
         </main>
 
         <Footer />

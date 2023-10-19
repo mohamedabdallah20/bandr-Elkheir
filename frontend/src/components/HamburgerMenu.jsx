@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function HamburgerMenu() {
   const [isNavOpen, setIsNavOpen] = useState(false) // initiate isNavOpen state with false
@@ -50,13 +51,13 @@ function HamburgerMenu() {
             </div>
             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/about">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/Blog">Blog</a>
+                <Link to="/blogs">Blogs</Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -64,13 +65,13 @@ function HamburgerMenu() {
 
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
           <li>
-            <a href="/about">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="/Blog">Blog</a>
+            <Link to="/blogs">Blogs</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
