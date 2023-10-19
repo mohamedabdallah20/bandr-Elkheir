@@ -11,10 +11,9 @@ function App() {
 
   return (
     <Router>
-      <div className="flex flex-col justify-between h-screen">
+      <div className="h-screen justify-between">
         <NavBar />
-
-        <main className="container mx-auto px-3 py-4 pb-12">
+        <main className="flex flex-col bg-slate-50 ">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="blogs" element={<Blogs />} />
@@ -22,7 +21,6 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-
         <Footer />
       </div>
     </Router>

@@ -9,7 +9,7 @@ function HamburgerMenu() {
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
           <div
-            className="HAMBURGER-ICON space-y-2"
+            className="HAMBURGER-ICON space-y-1.5"
             onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
           >
             <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
@@ -17,7 +17,9 @@ function HamburgerMenu() {
             <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
           </div>
 
-          <div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
+          <div
+            className={isNavOpen ? 'showMenuNav bg-base-300' : 'hideMenuNav'}
+          >
             <div className="absolute top-0 right-0 px-8 py-8">
               <svg
                 className="h-8 w-8 text-gray-600"
@@ -51,13 +53,19 @@ function HamburgerMenu() {
             </div>
             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-8 uppercase">
-                <Link to="/about">About</Link>
+                <Link onClick={() => setIsNavOpen(!isNavOpen)} to="/about">
+                  About
+                </Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <Link to="/blogs">Blogs</Link>
+                <Link onClick={() => setIsNavOpen(!isNavOpen)} to="/blogs">
+                  Blogs
+                </Link>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <Link to="/contact">Contact</Link>
+                <Link onClick={() => setIsNavOpen(!isNavOpen)} to="/contact">
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
@@ -86,7 +94,7 @@ function HamburgerMenu() {
           height: 100vh;
           top: 0;
           left: 0;
-          background: white;
+          
           z-index: 10;
           display: flex;
           flex-direction: column;
