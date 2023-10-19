@@ -1,0 +1,11 @@
+{
+  "name": "bandrelkheir",
+  "version": "1.0.0",
+  "description": "bandr elkheir corp.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohamed Abdallah",
+  "license": "MIT"
+}
