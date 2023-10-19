@@ -50,7 +50,7 @@ function Footer() {
         </div>
       </nav>
       <aside>
-        <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+        <p>Copyright © 2023 - All right reserved by Bandr ElKheir CORP.</p>
       </aside>
     </footer>
   )

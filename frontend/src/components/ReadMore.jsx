@@ -8,7 +8,7 @@ function ReadMore() {
         <img src={ReadMoreImg} alt="ReadMoreImg" />
       </figure>
       <div className="card-body">
-        <p className="md:p-52 md:text-4xl  text-xl p-8 ">
+        <p className="lg:p-52 md:text-4xl  text-xl p-8 ">
           Communicate your brand’s values and missions on this page. You can get
           personal with the reader, too, by explaining the motivation behind
           your brand.
