@@ -1,5 +1,6 @@
 import React from 'react'
 import ReadMoreImg from '../assets/bandr2.avif'
+import { Link } from 'react-router-dom'
 
 function ReadMore() {
   return (
@@ -14,7 +15,9 @@ function ReadMore() {
           your brand.
         </p>
         <div className="card-actions justify-end md:items-center">
-          <button className="btn btn-primary w-52 ">Read More</button>
+          <Link to="/blogs">
+            <button className="btn btn-primary w-52 ">Read More</button>
+          </Link>
         </div>
       </div>
     </div>

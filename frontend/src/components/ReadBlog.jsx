@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function ReadBlog({ img }) {
   return (
@@ -11,7 +12,9 @@ function ReadBlog({ img }) {
           with a link under this text.
         </p>
         <div className="card-actions justify-end md:items-center">
-          <button className="btn btn-primary w-52">Read Blog</button>
+          <Link to="/blogs/1">
+            <button className="btn btn-primary w-52">Read Blog</button>
+          </Link>
         </div>
       </div>
       <figure>
