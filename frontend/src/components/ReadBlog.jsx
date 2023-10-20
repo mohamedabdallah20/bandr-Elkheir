@@ -1,7 +1,6 @@
 import React from 'react'
-import ReadBlogImg from '../assets/bandr1.avif'
 
-function ReadBlog() {
+function ReadBlog({ img }) {
   return (
     <div className="card grid md:grid-cols-2 mt-16 bg-primary-content ">
       <div className="card-body text-base-100 ">
@@ -16,7 +15,7 @@ function ReadBlog() {
         </div>
       </div>
       <figure>
-        <img src={ReadBlogImg} alt="ReadBlogImg" />
+        <img src={img} alt="ReadBlogImg" />
       </figure>
     </div>
   )
