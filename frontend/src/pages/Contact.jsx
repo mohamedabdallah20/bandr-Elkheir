@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className="flex flex-col relative justify-start mb-20 mt-20">
+    <div className="flex flex-col relative justify-start mb-20 p-6 mt-20">
       <div className="md:top-0 md:left-0 sm:inset-0 md:mx-8 sm:px-20">
         <h1 className="lg:text-7xl md:text-5xl text-4xl ">Get in touch</h1>
         <p className="mt-4  max-w-md md:text-3xl text-lg">
@@ -10,20 +10,20 @@ function Contact() {
           work with us, or just talk to us, we would love to hear from you.
         </p>
         <div className="px-3">
-          <p className="my-8 text-2xl">
+          <p className="my-8 text-lg">
             Landline:&nbsp;&nbsp;&nbsp;&nbsp;+971 4 333 9896{' '}
           </p>
-          <p className="my-8 text-2xl">
+          <p className="my-8 text-lg">
             Mobile:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+971 54 773 0717{' '}
           </p>
-          <p className="my-8 text-2xl">
+          <p className="my-8 text-lg">
             Address:&nbsp;&nbsp;&nbsp;&nbsp; Office 20B-03 BC Resi 1072 Tower Al
             Muteena, Dubai, UAE.{' '}
           </p>
-          <p className="my-8 text-2xl">
+          <p className="my-8 text-lg">
             P.O.Box:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11863{' '}
           </p>
-          <p className="my-8 text-2xl">
+          <p className="my-8 text-lg">
             Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Info@rokalkayan.com{' '}
           </p>
         </div>
