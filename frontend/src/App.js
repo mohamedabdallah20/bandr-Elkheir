@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Blogs from './pages/Blogs'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Blog from './pages/Blog'
 function App() {
   ;<main className="container mx-auto px-3 py-4 pb-12"></main>
 
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="blogs" element={<Blogs />} />
+            <Route path="blogs/:blogId" element={<Blog />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

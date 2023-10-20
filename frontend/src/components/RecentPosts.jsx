@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function RecentPosts({ img1, img2, blogs }) {
   return (
@@ -16,7 +17,9 @@ function RecentPosts({ img1, img2, blogs }) {
       <div className="grid md:grid-cols-2 text-base-200 ">
         <div className="p-20">
           <figure>
-            <img src={img1} alt="RecentImg1" />
+            <Link to="/blogs/1">
+              <img src={img1} alt="RecentImg1" />
+            </Link>
           </figure>
           <p className="py-8  text-3xl">Your Post Title</p>
           <p>A short description of your blog post goes here</p>
@@ -24,7 +27,9 @@ function RecentPosts({ img1, img2, blogs }) {
         </div>
         <div className="p-20">
           <figure>
-            <img src={img2} alt="RecentImg2" />
+            <Link to="/blogs/2">
+              <img src={img2} alt="RecentImg2" />
+            </Link>
           </figure>
           <p className="py-8  text-3xl">Your Post Title</p>
           <p>A short description of your blog post goes here</p>

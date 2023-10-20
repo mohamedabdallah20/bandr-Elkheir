@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className="flex flex-col h-screen relative justify-start mb-40 mt-20">
+    <div className="flex flex-col relative justify-start mb-20 mt-20">
       <div className="md:top-0 md:left-0 sm:inset-0 md:mx-8 sm:px-20">
         <h1 className="lg:text-7xl md:text-5xl text-4xl ">Get in touch</h1>
         <p className="mt-4  max-w-md md:text-3xl text-lg">

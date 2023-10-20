@@ -9,7 +9,7 @@ function Blogs() {
   return (
     <>
       <div className=" grid lg:grid-cols-2 mt-20 mx-auto p-8 md:p-32 ">
-        <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold p">
+        <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold">
           Tell your visitors what your blog is all about. You want to make sure
           that you’re not too general in your body copy.
         </h1>
