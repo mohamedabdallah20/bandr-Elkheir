@@ -28,7 +28,7 @@ function Contact() {
           </p>
         </div>
         <form>
-          <div className="mt-10 grid grid-cols-1 gap-x-6 md:gap-y-8 gap-y-3 sm:grid-cols-6">
+          <div className="mt-10 gap-x-6 md:gap-y-8 gap-y-3 sm:grid-cols-6">
             <div className="sm:col-span-4">
               <label
                 htmlFor="firstName"
