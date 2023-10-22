@@ -9,7 +9,7 @@ function NavBar() {
         <div className="flex-1">
           <Link to="/">
             <h1 className="btn btn-ghost uppercase font-bold  md:text-xl text-lg">
-              Bander El-Kheir
+              Bander El-Khyr
             </h1>
           </Link>
         </div>

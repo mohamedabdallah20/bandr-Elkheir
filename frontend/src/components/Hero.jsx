@@ -20,16 +20,14 @@ function Hero() {
 
             'EL-KH',
 
-            'EL-KHE',
+            'EL-KHY',
 
-            'EL-KHEI',
-
-            'EL-KHEIR ...',
-            1000,
-            'EL-KHEIR . ..',
-            1000,
-            'EL-KHEIR . . .',
-            1000,
+            'EL-KHYR .',
+            300,
+            'EL-KHYR ..',
+            300,
+            'EL-KHYR ...',
+            300,
           ]}
           // wrapper="span"
           speed={50}
