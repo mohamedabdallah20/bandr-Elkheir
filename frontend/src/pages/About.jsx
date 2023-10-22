@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutImg from '../assets/bandrAbout.avif'
 import { TypeAnimation } from 'react-type-animation'
+import Info from '../components/Info'
 
 function About() {
   return (
@@ -20,24 +21,7 @@ function About() {
             repeat={Infinity}
           ></TypeAnimation>
         </div>
-        <div className="px-3">
-          <p className="my-8 text-2xl">
-            Landline:&nbsp;&nbsp;&nbsp;&nbsp;+971 4 333 9896{' '}
-          </p>
-          <p className="my-8 text-2xl">
-            Mobile:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+971 54 773 0717{' '}
-          </p>
-          <p className="my-8 text-2xl">
-            Address:&nbsp;&nbsp;&nbsp;&nbsp; Office 20B-03 BC Resi 1072 Tower Al
-            Muteena, Dubai, UAE.{' '}
-          </p>
-          <p className="my-8 text-2xl">
-            P.O.Box:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11863{' '}
-          </p>
-          <p className="my-8 text-2xl">
-            Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Info@rokalkayan.com{' '}
-          </p>
-        </div>
+        <Info />
       </div>
       <figure className=" mx-auto my-8">
         <img className="pb-32 w-50% h-50%" src={AboutImg} alt="AboutImg" />
