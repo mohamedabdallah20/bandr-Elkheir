@@ -37,7 +37,7 @@ function Info() {
         <p className="my-4 text-lg">
           Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </p>
-        <p className="my-4 text-lg">banderelkheir@gmail.com </p>
+        <p className="my-4 text-lg">info@banderelkhyr.com </p>
       </div>
     </div>
   )
